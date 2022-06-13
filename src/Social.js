@@ -5,7 +5,7 @@ import social3 from "./twitter-square-brands.svg";
 const Social = () => {
     return ( 
         <div className="social-section">
-            <img src={social1} alt="" className="social-image" />
+            <img src={social1} alt="" href="https://www.instagram.com/akonehsilas/" className="social-image" />
             <img src={social2} alt="" className="social-image" />
             <img src={social3} alt="" className="social-image" />
         </div>
