@@ -1,3 +1,4 @@
+import Aboutme from "./Aboutme";
 import Footer from "./Footer";
 import Introduction from "./Introduction";
 import { Navbar } from "./Navbar"
@@ -9,9 +10,10 @@ function App() {
     <div className="App">
       <Navbar />
       <Introduction />
-      <SectionHeader secHead={"Portfolio"}/>
+      <SectionHeader secHead={"Portfolio"} secId={"portfolio"}/>
       <Portfolio />
-      <SectionHeader secHead={"About me"}/>
+      <SectionHeader secHead={"About me"} secId={"about-me"}/>
+      <Aboutme />
       <Social/>
       <Footer />
     </div>

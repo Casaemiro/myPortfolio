@@ -4,11 +4,11 @@ const Footer = () => {
             <div className="left-footer">
                 <a href="iknite.space">instagram</a>
                 <a href="iknite.space">facebook</a>
-                <a href="iknite.space">twitter</a>
-                <a href="iknite.space">copyright</a>
-                <a href="iknite.space">about</a>
-                <a href="iknite.space">hire</a>
-                <a href="iknite.space">whatsapp</a>
+                {/* <a href="/">twitter</a> */}
+                <a href="/">copyright</a>
+                <a href="#about">about</a>
+                <a href="/">hire</a>
+                <a href="/">whatsapp</a>
             </div>
             <div className="right-footer">
                 <a href="#topest">to Top</a>
