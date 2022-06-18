@@ -2,8 +2,8 @@ const Footer = () => {
     return (
         <div className="footer-section">
             <div className="left-footer">
-                <a href="iknite.space">instagram</a>
-                <a href="iknite.space">facebook</a>
+                <a href="/">instagram</a>
+                <a href="/">facebook</a>
                 {/* <a href="/">twitter</a> */}
                 <a href="/">copyright</a>
                 <a href="#about">about</a>

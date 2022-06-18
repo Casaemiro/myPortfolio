@@ -1,5 +1,5 @@
 import React from 'react';
-import introimg from "./intro-img.JPG";
+import introimg from "./intro-img.jpg";
 const Introduction = () => {
     return (
         <div className="intro">
