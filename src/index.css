@@ -8,7 +8,21 @@ html {
   background-color: #000e3918;
   scroll-behavior: smooth;
 }
-
+.slide {
+  width: 100%;
+  left: 0%;
+  /* top: none; */
+  position: relative;
+  z-index: 10;
+  padding: 8em 1em 0;
+  background-size: cover;
+  /* background-position: 50% 50%; */
+  transition: left 0s .75s;
+  background-color: green;
+  display: flex;
+  border-radius: 10px;
+  /* background-color: #000e390e; */
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -26,6 +40,8 @@ code {
   width: 80%;
   border-bottom: 1px solid rgba(151, 151, 151, 0.59);
   /* box-shadow:-10px 1px 50px black; */
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
 }
 .links {
   margin-left: auto;
@@ -64,6 +80,7 @@ code {
 .intro-text h1{
   font-size: 3rem;
   color: #000E39;
+  font-weight: bold;
   line-height: 2.5rem;
 }
 h1 {
@@ -160,17 +177,21 @@ h1 {
   color: #000E39;
 }
 .section-header {
-  margin-top: -3%;
+  margin-top: 1%;
   width: 100%;
   border-top: 1px solid #000e3947;
   border-bottom: 1px solid #000e3947;
   background-color: #000e3911;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  
 
 }
 .section-header h1{
   margin-left: 20%;
   /* background-color: green; */
   font-size: 2.5rem;
+  font-weight: bold;
 }
 .Portfolio-section {
   width: 80%;
@@ -204,12 +225,16 @@ h1 {
 .moreBtn {
   margin: 1%;
   padding: 5px;
+  border-radius: 5px;
+  margin-right: 4%;
 }
 .extr {
   width: 100%;
 }
 .codeBtn {
   padding: 5px;
+  border-radius: 5px;
+
 }
 .about {
   background-color: rgba(151, 151, 151, 0.59);
@@ -220,10 +245,14 @@ h1 {
   margin-top: 2%;
   padding-left: 2%;
   padding-bottom: 2%;
+  border-radius: 3px;
 
 }
 .about h2 {
   width: 100%;
+  font-weight: bold;
+  padding: 1%;
+  color: #000e399c;
 }
 .aboutText {
   background-color: rgba(151, 151, 151, 0.397);
@@ -231,16 +260,22 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 1%;
   padding-left: 2.5%;
   /* line-height: 10px; */
-  /* border-radius: 10px; */
+  border-bottom-left-radius: 30px;
 
 }
 .aboutText span {
   margin-left: 2%;
+  font-weight: bold;
+  color: #000e39d5;
+  border-left: 1px solid rgba(151, 151, 151, 0.59);
+  padding-left: 2%;
 }
 .top-nav h1 {
   width: 300px;
+  font-weight: bold;
 }
 
 
@@ -391,6 +426,8 @@ h1 {
   }
   .Portfolio-section {
     width: 100%;
+    height: 300vh;
+    margin: 0% 20%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -410,6 +447,9 @@ h1 {
     /* background-color: green; */
   }
 }
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
 
 /* Large devices (laptops/desktops, 992px and up) */
 /* @media only screen and (min-width: 992px) {
@@ -425,3 +465,68 @@ h1 {
 } */
 
 /* } */
+
+
+img {
+  max-width: 100%;
+}
+
+.slider-container{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden; 
+  text-align: center;
+}
+
+.menu {
+  position: absolute;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  bottom: 0;
+}
+
+.menu label {
+  cursor: pointer;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50px;
+  margin: 0 .2em 1em;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 10;
+  padding: 8em 1em 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: left 0s .75s;
+}
+
+[id^="slide"]:checked + .slide {
+  left: 0;
+  z-index: 100;
+  transition: left .65s ease-out;
+}
+
+.slide-1 {
+  background-image: url("https://source.unsplash.com/t7YycgAoVSw/1600x900");
+}
+.slide-2 {
+  background-image: url("https://source.unsplash.com/11H1SSVcIxc/1600x900");
+}
+.slide-3 {
+  background-image: url("https://source.unsplash.com/OlZ1nWLEEgM/1600x900");
+}
+/* .hy{
+  text-decoration: none;
+  padding: 10px;
+  color: Black;
+} */
