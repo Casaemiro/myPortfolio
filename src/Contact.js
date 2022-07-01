@@ -17,11 +17,17 @@ const Contact = () => {
       </div>
       <div className="modal-body">
           <div className=" row">
-              <div className="col-6">
-                  <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic1.makeuseofimages.com%2Fwordpress%2Fwp-content%2Fuploads%2F2016%2F10%2Fcamera-photo-lens-stock-images.jpg%3Fq%3D50%26fit%3Dcontain%26w%3D1500%26h%3D750%26dpr%3D1.5&imgrefurl=https%3A%2F%2Fwww.makeuseof.com%2Ftag%2Ftop-5-websites-for-free-stock-photographs%2F&tbnid=Dl7z4UdQxO9_AM&vet=12ahUKEwjw8fq1g9X4AhUQLRoKHTfjDroQMygKegUIARDFAQ..i&docid=BWlTlGThnKWvuM&w=1500&h=750&q=images&client=firefox-b-d&ved=2ahUKEwjw8fq1g9X4AhUQLRoKHTfjDroQMygKegUIARDFAQ" alt="sd sdf;j dfgkjs "/>
+              <div className="col-7">
+                  Tel: +237 681 099 238<br></br>
+                  email: silasmagho18@gmail.com<br></br>
+                  address: Buea,Cameroon
+                  <textarea placeholder="leave me a short message..." className="mt-2"> </textarea>
+                  <button type="button" className="btn btn-primary mt-3 px-4" >send</button>
               </div>
-              <div className="col-6">
-                <p>Here is a display of the Info gotten from the Search</p>
+              <div className="col-5" style={{
+                backgroundImage : "url(https://photos.google.com/photo/AF1QipO1cEPz6JMQlPZaZ4cMvFfdaMndKUED-hRg8EEr)",
+              }}>
+                <p>Please leave a message and I'll definitely get back to you as soon as I can.</p>
               </div>
           </div>
         ...

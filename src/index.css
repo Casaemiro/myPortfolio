@@ -18,7 +18,7 @@ html {
   background-size: cover;
   /* background-position: 50% 50%; */
   transition: left 0s .75s;
-  background-color: green;
+  /* background-color: green; */
   display: flex;
   border-radius: 10px;
   /* background-color: #000e390e; */
@@ -277,7 +277,9 @@ h1 {
   width: 300px;
   font-weight: bold;
 }
-
+.slidesec {
+  width: 70%;
+}
 
 /* ____________________________________________ */
 
@@ -299,6 +301,15 @@ h1 {
     margin-bottom: 3%;
     margin-top: 3%;
     border-radius: 5px;
+  }
+  .project-section h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+  }.project-section p{
+    font-size: 0.8rem;
+  }
+  .slidesec {
+    width: 100%;
   }
   .social-image {
     width: 20%;
@@ -403,7 +414,7 @@ h1 {
   
   }
   .intro-text {
-    width: 100%;
+    width: 70%;
   }
   .intro-text h1{
     font-size: 1.5rem;

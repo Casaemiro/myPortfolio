@@ -9,9 +9,9 @@ import Capture7 from "./images/Capture7.PNG"
 
 const SlideProj = () => {
     return (
-        < >
+        < ><div className="slidesec" >
             <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel" style={{
-                width: "70%",
+                width: "100%",
                 height: "65vh",
                 position: "relative",
                 left: "0%",
@@ -76,6 +76,7 @@ const SlideProj = () => {
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>
+            </div>
             </div>
         </>
     );
