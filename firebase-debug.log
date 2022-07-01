@@ -59,3 +59,15 @@
 [debug] [2022-07-01T13:35:53.737Z] [uploadQueue] Retrying task 7a6da09d3334a01088e457bd3691d2fd241bdde47665d730084f3c7c7897bbf1
 [debug] [2022-07-01T13:35:53.737Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/portfolio-5db3c/versions/f7f0db1bbd470ec9/files/7a6da09d3334a01088e457bd3691d2fd241bdde47665d730084f3c7c7897bbf1 [none]
 [debug] [2022-07-01T13:35:53.738Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/portfolio-5db3c/versions/f7f0db1bbd470ec9/files/7a6da09d3334a01088e457bd3691d2fd241bdde47665d730084f3c7c7897bbf1 [stream]
+[debug] [2022-07-01T13:36:22.630Z] [uploadQueue] Retrying task 8b9d7683ff518e0dbd5cf85494da8341932aecf5377e3d1f4c4025e064213daa
+[debug] [2022-07-01T13:36:22.631Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/portfolio-5db3c/versions/f7f0db1bbd470ec9/files/8b9d7683ff518e0dbd5cf85494da8341932aecf5377e3d1f4c4025e064213daa [none]
+[debug] [2022-07-01T13:36:22.631Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/portfolio-5db3c/versions/f7f0db1bbd470ec9/files/8b9d7683ff518e0dbd5cf85494da8341932aecf5377e3d1f4c4025e064213daa [stream]
+[debug] [2022-07-01T13:36:26.725Z] [uploadQueue] Retrying task 7a6da09d3334a01088e457bd3691d2fd241bdde47665d730084f3c7c7897bbf1
+[debug] [2022-07-01T13:36:26.726Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/portfolio-5db3c/versions/f7f0db1bbd470ec9/files/7a6da09d3334a01088e457bd3691d2fd241bdde47665d730084f3c7c7897bbf1 [none]
+[debug] [2022-07-01T13:36:26.726Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/portfolio-5db3c/versions/f7f0db1bbd470ec9/files/7a6da09d3334a01088e457bd3691d2fd241bdde47665d730084f3c7c7897bbf1 [stream]
+[debug] [2022-07-01T13:36:38.155Z] [uploadQueue] Retrying task 46fd01ba37691dd3e477f3843e6ec0dad6801fa58c73e5f248da494c60f883e6
+[debug] [2022-07-01T13:36:38.157Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/portfolio-5db3c/versions/f7f0db1bbd470ec9/files/46fd01ba37691dd3e477f3843e6ec0dad6801fa58c73e5f248da494c60f883e6 [none]
+[debug] [2022-07-01T13:36:38.159Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/portfolio-5db3c/versions/f7f0db1bbd470ec9/files/46fd01ba37691dd3e477f3843e6ec0dad6801fa58c73e5f248da494c60f883e6 [stream]
+[debug] [2022-07-01T13:36:55.851Z] [uploadQueue] Retrying task 8b9d7683ff518e0dbd5cf85494da8341932aecf5377e3d1f4c4025e064213daa
+[debug] [2022-07-01T13:36:55.852Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/portfolio-5db3c/versions/f7f0db1bbd470ec9/files/8b9d7683ff518e0dbd5cf85494da8341932aecf5377e3d1f4c4025e064213daa [none]
+[debug] [2022-07-01T13:36:55.852Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/portfolio-5db3c/versions/f7f0db1bbd470ec9/files/8b9d7683ff518e0dbd5cf85494da8341932aecf5377e3d1f4c4025e064213daa [stream]
